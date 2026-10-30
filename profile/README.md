@@ -39,7 +39,7 @@ Then ask: *"Find me quotes about courage during setbacks, with sources."* Or: *"
 | Repo | What it is |
 |---|---|
 | [**mcp**](https://github.com/quotewise/mcp) | The Quotewise MCP server, for quote search and attribution checks inside your AI tools. |
-| [**skills**](https://github.com/quotewise/skills) | Quotewise skill for OpenClaw agents. Install with `clawhub install quotewisio/quotewise`. It calls the same MCP server through mcporter. |
+| [**skills**](https://github.com/quotewise/skills) | Portable Agent Skill: any client that loads `SKILL.md` can use it. It calls the same MCP server, or the CLI when MCP isn't connected. Includes a Claude Code / Cowork plugin adapter. |
 | [**quotewise-browser-extension**](https://github.com/quotewise/quotewise-browser-extension) | Quote Capture for Chrome and Firefox (MV3). Capture a quote from one post on X, Threads, Bluesky or Substack Notes, with author, source link and a duplicate check. Curators review new contributors' submissions. It only reads the single post you choose. Firefox: on addons.mozilla.org. Chrome: not yet in the Web Store, so build from source. |
 
 ## How we think about attribution
